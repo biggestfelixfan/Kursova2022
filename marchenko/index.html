@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+<link rel="shotcut icon" type="media/png" href="media/logo.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Mono:wght@100&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/air-datepicker.css">
+	<title>Буховель</title>
+</head>
+
+<body>
+	<section class="section-1">
+		<div class="container">
+			<header>
+				<a href="#section-4"><button class="button-navigation">ЗАРЕЗЕРВУВАТИСЬ</button></a>
+
+				<a href="#footer">
+					<h1 class="navigation">+38(099)990-99-09</h1>
+				</a>
+				<a href="#section-3">
+					<h1 class="navigation">Про нас</h1>
+				</a>
+				<a href="#section-2">
+					<h1 class="navigation">Кімнати</h1>
+				</a>
+			</header>
+
+			<h1 class="main-page-text">БУХОВЕЛЬ</h1>
+		</div>
+	</section>
+
+
+	<section class="section-2" id="section-2">
+		<h1 class="rooms-main-text">Кімнати</h1>
+		<div class="wrapper">
+
+			<div class="slider">
+				<div class="slider_item">
+					<img class="slider_img" src="media/Slider_1.jpg">
+				</div>
+				<div class="slider_item">
+					<img class="slider_img" src="media/Slider_2.jpg" alt="">
+				</div>
+				<div class="slider_item">
+					<img class="slider_img" src="media/Slider_3.jpg" alt="">
+				</div>
+				<div class="slider_item">
+					<img class="slider_img" src="media/Slider_4.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="slide-text">
+			<h1 class="slide-main-text">Найлюксовіші кімнати у всьому Стебнику</h1>
+			<p class="slide-second-text">У нас ви знайдете місце свого спокою, оскільки про існування Стебника ніхто не
+				знає.</p>
+		</div>
+
+	</section>
+
+	<section class="section-3" id="section-3">
+		<div class="container">
+			<h1 class="about-us">Про нас</h1>
+			<div class="about-us-text-container">
+				<p class="about-us-text">Буховель - комплекс відпочинку та розваг в Стебнику. Вже багато
+					років
+					Буховель
+					приваблює своїх відвідувачів зручним розташуванням, великим вибором розважальних послуг та смачною
+					авторською кухнею. </p>
+				<p class="about-us-text">Це місце називають «індустрією задоволення», адже де ще можна знайти заміський
+					комплекс
+					в межах міста? З комфортним готелем, басейном (на якому часто проводять вечірки), великою територією
+					для
+					дітей та великим вибором розваг для дорослих та дітей. </p>
+				<p class="about-us-text">Буховель - це симбіоз гучного ритму життя та спокою, сучасного дизайну та
+					етно-традицій, вишуканої ресторанної кухні та смачних коктейлів.</p>
+			</div>
+
+			<img class="about-us-photo" src="media/About us.jpg" alt="">
+		</div>
+	</section>
+
+
+	<section class="section-4" id="section-4">
+		<div class="container">
+			<h1 class="reserve-main-text">Зарезервуйте номер</h1>
+			<form action="db.php" method="POST">
+				<div class="form">
+					<h1 class="form-text">ПІБ</h1>
+					<input class="form-input" type="text" name="name" placeholder="Марченко Віталій Петрович"
+						required>
+					<h1 class="form-text">Номер телефону</h1>
+					<input class="form-input" type="tel" name="phone" pattern="380[0-9]{9}" maxlength="12" required
+						autocomplete="off" placeholder=" 380934692146">
+					<h1 class="form-text">Заселяєтесь</h1>
+					<input class="form-input date" type="text" name="date_one" id="el1" readonly
+						placeholder="Оберіть число" required>
+					<h1 class="form-text">Покидаєте</h1>
+					<input class="form-input date" type="text" name="date_two" id="el2" readonly
+						placeholder="Оберіть число" required>
+					<h1 class="form-text">Номер</h1>
+					<select class="form-input rooms" id="room" name="room">
+						<option value="1 кімната">1 кімната</option>
+						<option value="2 кімнати">2 кімнати</option>
+						<option value="3 кімнати">3 кімнати</option>
+						<option value="VIP">VIP</option>
+					</select>
+					<br>
+					<button class="form-btn" type="submit">Зарезервувати</button>
+				</div>
+			</form>
+
+			<img class="sec-4-photo" src="media/Zaselennya.jpg" alt="">
+		</div>
+
+	</section>
+
+
+
+	<footer id="footer">
+		<div class="container">
+			<div class="location">
+				<h1 class="buhovel-footer-text">БУХОВЕЛЬ</h1>
+				<h1 class="location-text">м. Стебник, вул. Оксани Марченко 1</h1>
+			</div>
+
+			<div class="social-networks">
+				<h1 class="buhovel-mail">buhovel@gmail.com</h1>
+				<a href="#"><img class="social" src="media/yt.png"></a>
+				<a href="#"><img class="social" src="media/instagram.png"></a>
+				<a href="#"><img class="social" src="media/telegram.png"></a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="js/air-datepicker.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

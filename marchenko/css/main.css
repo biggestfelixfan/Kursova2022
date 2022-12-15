@@ -1,0 +1,263 @@
+body{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+html{
+	 scroll-behavior: smooth;
+}
+
+p{
+	font-family: 'Roboto Mono';
+}
+
+h1{
+	font-family: 'Roboto Mono';
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.container{
+	margin: 0 auto;
+	width: 95%;
+}
+
+.section-1{
+	background: url(../media/Mainbg.jpg) no-repeat ;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+header{
+	font-size: 18px;
+	font-family: 'Roboto Mono';
+	color: #fff;
+}
+
+.navigation{
+	float: right;
+	margin-right: 50px;
+}
+
+.button-navigation{
+	padding: 15px 20px;
+	font-size: 20px;
+	background-color: #cf5726;
+	color: #fff;
+	margin-top: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+.main-page-text{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 140px;
+	font-family: 'Orelega One';
+	font-weight: normal;
+}
+
+
+.slick-track{
+	display: flex;
+	margin-bottom: 80px;
+	max-height: 500px;
+}
+
+.slick-list{
+	overflow: hidden;
+}
+
+.slider{
+	text-align: center;
+	
+}
+
+.slider_img{	
+	max-width: 650px;
+	transition: 0.8s;
+}
+
+
+.slider_item{
+	margin: 0px 40px;
+	width: 800px;
+	padding-top: 30px;
+	transition: 0.8s;
+}
+
+.slick-current{
+	padding-top: 0px;
+}
+
+.slick-current .slider_img{	
+	max-width: 800px;
+	transition: 0.8s;
+}
+
+
+.slide-text{
+	color: #000;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.slide-main-text{
+	font-size: 34px;
+}
+
+.slide-second-text{
+	font-size: 23px;
+	color: #000;
+	font-weight: bold;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+
+.rooms-main-text{
+	text-align: center;
+	font-size: 50px;
+}
+
+.section-3{
+	background-color: #121212;
+}
+
+.about-us{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.about-us-text-container{
+	width: 750px;
+	float: left;
+}
+
+.about-us-text{
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.about-us-photo{
+	float: right;
+	max-width: 750px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+.reserve-main-text{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.form{
+	text-align: center;
+	margin-bottom: 150px;
+	float: left;
+	margin-left: 20%;
+	max-width: 400px;
+}
+
+.form-input{
+	padding: 10px 20px;
+	font-size: 25px;
+	outline: none;
+	width: 400px;
+	float: left;
+}
+
+.rooms{
+	width: 447px;
+	cursor: pointer;
+}
+
+.form-text{
+	margin-bottom: 10px;
+	font-size: 30px;
+	float: left;
+}
+
+.form-btn{
+	margin-top: 50px;
+	font-size: 25px;
+	padding: 10px 40px;
+	cursor: pointer;
+	background-color: #cf5726;
+	color: #fff;
+	border: 2px solid #cf5726;
+	margin-left: 40px;
+}
+
+.date{
+	cursor: pointer;
+}
+
+.sec-4-photo{
+	margin-top: 70px;
+	float: right;
+	max-width: 900px;
+}
+
+
+
+
+footer{
+	margin-top: auto;
+	background-color: black;
+	width: 100%;
+}
+
+.location{
+	max-width: 280px;
+	color: #fff;
+	float: left;
+	margin-top: 50px;
+}
+
+.buhovel-footer-text{
+	font-family: 'Orelega One';
+}
+
+.location-text{
+	font-family: 'Orelega One';
+	font-size: 29px;
+	font-weight: normal;
+}
+
+
+.social-networks{
+	float: right;
+	color: #fff;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.social{
+	margin-right: 15px;
+}
